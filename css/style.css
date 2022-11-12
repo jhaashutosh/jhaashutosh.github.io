@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,700;1,500&display=swap");
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -18,9 +18,7 @@ body.dark {
   --text-black-700: #e9e9e9;
 }
 body {
-  /* margin:0;
-    padding:0; */
-  font-family: "Poppins" sans-serif;
+  font-family: Rubik;
   line-height: 1.5;
   font-size: 16px;
 }
@@ -320,6 +318,7 @@ ul {
 h3.hello {
   font-size: 28px;
   margin: 15px 0;
+  font-family: sans-serif;
 }
 
 h3.hello span {
@@ -639,6 +638,7 @@ h3.my-profession {
   font-size: 16px;
   color: var(--text-black-700);
   line-height: 25px;
+  text-align: justify;
 }
 
 /* portfolio */
